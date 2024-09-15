@@ -14,6 +14,7 @@ namespace projectframe.Controllers
         SqlConnection con = new SqlConnection("Data Source=DESKTOP-CUOIADU\\SQLEXPRESS;Initial Catalog=\"Profile DB\";Integrated Security=True;Encrypt=False");
         public ActionResult Index()
         {
+            int a = 0;
             return View();
         }
         [HttpPost]
